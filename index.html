@@ -37,7 +37,7 @@
         <button class="home__contact">contact me</button>
     </section>
     <!-- about -->
-    <section id="about" class="section">
+    <section id="about" class="section section__container">
         <h1>About me</h1>
         <p>It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a project where blocks of text are needed, this tool can be a great way to get that. It's a good way to test your programming and that the tool being created is working well.</p>
        
@@ -80,65 +80,81 @@
     </section>
     <!-- skills -->
     <section id="skills" class="section">
-        <h1>Skills</h1>
-        <h2>Skills & Attributes</h2>
-        <p>It went through such rapid contortions that the little bear was forced to change his hold on it so many times he became confused in the darkness, and could not, for the life of him, tell whether he held the sheep right side up, or upside down.</p>
+        <div class="section__container">
+            <h1>Skills</h1>
+            <h2>Skills & Attributes</h2>
+            <p>It went through such rapid contortions that the little bear was forced to change his hold on it so many times he became confused in the darkness, and could not, for the life of him, tell whether he held the sheep right side up, or upside down.</p>
 
-        <div class="skillset">
-            <div class="skillset__left">
-                <h3 class="skill__title">Skills</h3>
-                <div class="skill__description">
-                    <span>HTTP</span>
-                    <span>90%</span>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skill__title">Skills</h3>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>HTTP</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>CSS</span>
+                            <span>90%</span>
+                        </div>  
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 90%;"></div>
+                        </div> 
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Java</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>JavaScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 85%;"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill__bar">
-                    <div class="skill__value"></div>
-                </div>
-                <div class="skill__description">
-                    <span>CSS</span>
-                    <span>90%</span>
-                </div>
-                <div class="skill__bar">
-                    <div class="skill__value"></div>
-                </div>
-                <div class="skill__description">
-                    <span>Java</span>
-                    <span>80%</span>
-                </div>
-                <div class="skill__bar">
-                    <div class="skill__value"></div>
-                </div>
-                <div class="skill__description">
-                    <span>JavaScript</span>
-                    <span>85%</span>
-                </div>
-                <div class="skill__bar">
-                    <div class="skill__value"></div>
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skill__title">Tools</h3>
+                        <ul class="tool__list">
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span>AWS</span></li>
+                            <li><span>Eclipse</span></li>
+                            <li><span>dsdsdad</span></li>
+                            <li><span>asdada</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="etc">
+                        <h3 class="skill__title">etc</h3>
+                        <ul class="etc__list">
+                            <li><span>Git</span></li>
+                            <li><span>Scrum</span></li>
+                            <li><span>Accounting</span></li>
+                        </ul>
+
+                    </div>
                 </div>
             </div>
-            <div class="skillset__right">
-                <div class="Skill__tools">
-                    <h3 class="skill__title">Tools</h3>
-                    <ul class="tool__list">
-                        <li><span>Visual Studio Code</span></li>
-                        <li><span>AWS</span></li>
-                        <li><span>Eclipse</span></li>
-                        <li><span>dsdsdad</span></li>
-                        <li><span>asdada</span></li>
-                    </ul>
-                </div>
 
-                <div class="etc">
-                    <h3 class="skill__title">etc</h3>
-                    <ul class="etc__list">
-                        <li><span>Git</span></li>
-                        <li><span>Scrum</span></li>
-                        <li><span>Accounting</span></li>
-                    </ul>
-
-                </div>
-            </div>
         </div>
+
+        
     </section>
     <!-- work -->
     <section id="work" class="section">
