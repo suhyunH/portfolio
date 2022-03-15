@@ -11,21 +11,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <title>suhyun's portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome.min.css" type="text/css">
+
     <script src="main.js" defer></script>
 </head>
 <body>
     <!-- nav -->
     <nav id="navbar">
-        <div class="navbar__logo">
-            <i class="fab fa-diaspora"></i>
-            <a href="#">Suhyun</a>
-        </div>
         <ul class="navbar__menu">
             <li class="navbar__menu_items active" data-link="#home">Home</li>
             <li class="navbar__menu_items" data-link="#about">About</li>
             <li class="navbar__menu_items" data-link="#skills">Skills</li>
             <li class="navbar__menu_items" data-link="#work">My work</li>
-            <li class="navbar__menu_items" data-link="#testimonials">Testimoial</li>
             <li class="navbar__menu_items" data-link="#contact">Contact</li>
         </ul>
 
@@ -36,52 +33,27 @@
     <!-- Home -->
     <section id="home">
         <div class="home__container">
-            <img src="imgs/IMG_0166.JPG" alt="suhyun's profile photo" class="home__avatar">
-            <h1 class="home__title">Hello,<br> I'm Dream Coder</h1>
-            <h2 class="home__description">강조하고싶은 문장 적기</h2>
+            <h1 class="home__title">Hello,<br> I'm SUHYUN HAN</h1>
+            <h2 class="home__description">A Front-End Developer</h2>
             <button class="home__contact" data-link="#contact">contact me</button>
         </div>
     </section>
     <!-- about -->
-    <section id="about" class="section section__container">
-        <h1>About me</h1>
-        <p>It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a project where blocks of text are needed, this tool can be a great way to get that. It's a good way to test your programming and that the tool being created is working well.</p>
-       
-        <div class="about__majors">
-            <div class="major">
-                <div class="major__icon">
-                    <i class="fab fa-html5"></i>
+    <section id="about" class="section">
+        <div class="section__container">
+            
+            <h1>About me</h1>
+                <div class="about">
+                    <div>       
+                        <img src="imgs/me1.jpg" class="profile_avatar" alt="profile picture">
+                    </div>
+                    <div class="about_des">
+                            <p><strong>잠수함 속 토끼</strong> <br>
+                                과거 독일에선 잠수함 내 공기 중 산소 포함량을 진단하기 위해 토끼를 함께 태웠다고 합니다. 공기 중 산소 농도가 부족하게 되면 토끼는 인간보다 7시간 먼저 죽게 되기 때문입니다. 저는 남들보다 시장의 변화를 빠르게 읽는 점에서 비시각적인 변화에 먼저 반응하는 토끼가 저와 닮았다고 생각합니다. 저는 배움을 즐거워하고 트렌드를 앞서가는 환경에서 일하기를 갈망합니다. 이를 통해 끊임없이 신기술이 쏟아지는 IT란 바다에서 함께 발전해나가고싶습니다. </p>
+                            <p>"A Rabbit in a Submarin" It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a project where blocks of text are needed, this tool can be a great way to get that. It's a good way to test your programming and that the tool being created is working well.</p>
+                    </div>
                 </div>
-                <h2 class="major__title">Front-end</h2>
-                <div class="major__description">HTML, CSS, JavaScript</div>
-            </div>
-            <div class="major">
-                <div class="major__icon">
-                    <i class="fas fa-mobile"></i>
-                </div>
-                <h2 class="major__title">Mobile</h2>
-                <div class="major__description">adkskdkejwkdlsldk</div>
-            </div>
-            <div class="major">
-                <div class="major__icon">
-                    <i class="fab fa-java"></i>
-                </div>
-                <h2 class="major__title">Back-end</h2>
-                <div class="major__description">Java, JavaScript</div>
-            </div>
-        </div>
 
-        <div class="about__jobs">
-            <div class="job">
-                <img src="" alt="" class="job__logo">
-                <p class="job__name"></p>
-                <p class="job__period"></p>
-            </div>
-            <div class="job">
-                <img src="" alt="" class="job__logo">
-                <p class="job__name"></p>
-                <p class="job__period"></p>
-            </div>
         </div>
     </section>
     <!-- skills -->
@@ -89,14 +61,50 @@
         <div class="section__container">
             <h1>Skills</h1>
             <h2>Skills & Attributes</h2>
-            <p>It went through such rapid contortions that the little bear was forced to change his hold on it so many times he became confused in the darkness, and could not, for the life of him, tell whether he held the sheep right side up, or upside down.</p>
+            <div class="about__majors">
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h2 class="major__title">JavaScript</h2>
+                    <div class="major__description">React, TypeScript, NextJS</div>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fa fa-css3" aria-hidden="true"></i>
+                    </div>
+                    <h2 class="major__title">CSS</h2>
+                    <div class="major__description">SCSS, Styled-Components</div>
+                </div>
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h2 class="major__title">Back-end</h2>
+                    <div class="major__description">Java, Oracle SQL</div>
+                </div>
+            </div>
+
+            <div class="about__jobs">
+                <div class="job">
+                    <img src="" alt="" class="job__logo">
+                    <p class="job__name"></p>
+                    <p class="job__period"></p>
+                </div>
+                <div class="job">
+                    <img src="" alt="" class="job__logo">
+                    <p class="job__name"></p>
+                    <p class="job__period"></p>
+                </div>
+            </div>
+        </div>
 
             <div class="skillset">
                 <div class="skillset__left">
                     <h3 class="skill__title">Skills</h3>
                     <div class="skill">
                         <div class="skill__description">
-                            <span>HTTP</span>
+                            <span>React</span>
                             <span>90%</span>
                         </div>
                         <div class="skill__bar">
@@ -106,7 +114,7 @@
 
                     <div class="skill">
                         <div class="skill__description">
-                            <span>CSS</span>
+                            <span>SCSS</span>
                             <span>90%</span>
                         </div>  
                         <div class="skill__bar">
@@ -116,21 +124,30 @@
 
                     <div class="skill">
                         <div class="skill__description">
-                            <span>Java</span>
-                            <span>80%</span>
+                            <span>TypeScript</span>
+                            <span>60%</span>
                         </div>
                         <div class="skill__bar">
-                            <div class="skill__value" style="width: 80%;"></div>
+                            <div class="skill__value" style="width: 60%;"></div>
                         </div>
                     </div>
                     
                     <div class="skill">
                         <div class="skill__description">
-                            <span>JavaScript</span>
-                            <span>85%</span>
+                            <span>Java</span>
+                            <span>55%</span>
                         </div>
                         <div class="skill__bar">
-                            <div class="skill__value" style="width: 85%;"></div>
+                            <div class="skill__value" style="width: 55%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>SQL</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 65%;"></div>
                         </div>
                     </div>
                 </div>
@@ -139,10 +156,8 @@
                         <h3 class="skill__title">Tools</h3>
                         <ul class="tool__list">
                             <li><span>Visual Studio Code</span></li>
-                            <li><span>AWS</span></li>
                             <li><span>Eclipse</span></li>
-                            <li><span>dsdsdad</span></li>
-                            <li><span>asdada</span></li>
+                            <li><span>Tiled</span> </li>
                         </ul>
                     </div>
 
@@ -150,135 +165,87 @@
                         <h3 class="skill__title">etc</h3>
                         <ul class="etc__list">
                             <li><span>Git</span></li>
-                            <li><span>Scrum</span></li>
-                            <li><span>Accounting</span></li>
+                            <li><span>Firebase</span></li>
                         </ul>
-
                     </div>
                 </div>
             </div>
-
         </div>
-
-        
     </section>
+
     <!-- work -->
     <section id="work" class="section">
         <div class="section__container">
             <h1>My work</h1>
             <h3>Projects</h3> 
             <div class="work__categories">
-                <button class="categories_btn selected" data-filter="*">All <span class="categories__count">8</span></button>
-                <button class="categories_btn" data-filter="Front-end">Front-end <span class="categories__count">3</span></button>
-                <button class="categories_btn" data-filter="Back-end">Back-end <span class="categories__count">3</span></button>
-                <button class="categories_btn" data-filter="Mobile">Mobile <span class="categories__count">2</span></button>
+                <button class="categories_btn selected" data-filter="*">All <span class="categories__count">3</span></button>
+                <button class="categories_btn" data-filter="personal">Personal <span class="categories__count">2</span></button>
+                <button class="categories_btn" data-filter="group">Group <span class="categories__count">1</span></button>
             </div>      
 
             <div class="work__projects">
-                <a class="project" href="http://www.youtube.com" target="blank" data-type="Front-end">
-                    <img class = "project__img" src="imgs/projects/project1.png">
-                    <div class="project__description">
-                        <h3>Youtube site</h3>
-                        <span>Clone coding with HTML, CSS and JS</span>
+                <div class="project_filter" data-type="personal">
+                    <h2>Movie Joy</h2>
+                    <span>React/SCSS/TheMovieDB API</span>
+                    <div class="project">
+                        <img class = "project__img" src="imgs/movie_joy.gif">
                     </div>
-                </a>
+                    <button class="github_btn" type="button" onclick="window.open('https://suhyunh.github.io/movie_joy/')" data-type="personal">
+                        <i class="fa fa-chrome"></i> <span>Go Live</span>
+                    </button>
+                    <button class="github_btn" type="button" onclick="window.open('http://github.com/suhyunH/movie_joy')" data-type="personal">
+                            <i class="fab fa-github"></i> <span>Source Code</span>
+                    </button>
+                </div>
 
-                <a class="project" href="#" target="blank" data-type="Front-end">
-                    <img class = "project__img" src="imgs/projects/project2.png">
-                    <div class="project__description">
-                        <h3>Youtube site</h3>
-                        <span>Clone coding with HTML, CSS and JS</span>
+                <div class="project_filter" data-type="personal">
+                   <h2>Chat App</h2>
+                   <span>React/Styled-Components/useContext/Firebase</span>
+                    <div class="project" >
+                        <img class = "project__img" src="imgs/chatapp.gif">
                     </div>
-                </a>
+                    <button class="github_btn" type="button" onclick="window.open('https://suhyunh.github.io/chat-app/')" data-type="personal">
+                        <i class="fa fa-chrome"></i> <span>Go Live</span>
+                    </button>
+                    <button class="github_btn" type="button" onclick="window.open('http://github.com/suhyunH/chat-app')" data-type="personal">
+                        <i class="fab fa-github"></i> <span>Source Code</span>
+                    </button>
 
-                <a class="project" href="#" target="blank" data-type="Front-end">
-                    <img class = "project__img" src="imgs/projects/project3.png">
-                    <div class="project__description">
-                        <h3>Youtube site</h3>
-                        <span>Clone coding with HTML, CSS and JS</span>
+                </div>
+                <div  class="project_filter" data-type="group">
+                    <h2>Meet Up</h2>
+                    <span>React/SCSS/Kakao map API</span>
+                    <div class="project">
+                        <img class = "project__img" src="imgs/meetup.gif">
                     </div>
-                </a>
+                    <button class="github_btn" type="button" disabled>
+                        <i class="fa fa-chrome"></i> <span>Not published</span>
+                    </button>
+                    <button class="github_btn" type="button" onclick="window.open('http://github.com/suhyunH/MeetUp')" data-type="group">
+                        <i class="fab fa-github"></i> <span>Source Code</span>
+                    </button>
+                </div>
 
-                <a class="project" href="#" target="blank" data-type="Back-end">
-                    <img class = "project__img" src="imgs/projects/project8.png">
-                    <div class="project__description">
-                        <h3>Youtube site</h3>
-                        <span>Clone coding with HTML, CSS and JS</span>
-                    </div>
-                </a>
-
-                <a class="project" href="#" target="blank" data-type="Mobile">
-                    <img class = "project__img" src="imgs/projects/project5.png">
-                    <div class="project__description">
-                        <h3>Youtube site</h3>
-                        <span>Clone coding with HTML, CSS and JS</span>
-                    </div>
-                </a>
-                <a class="project" href="#"  target="blank" data-type="Back-end">
-                    <img class = "project__img" src="imgs/projects/project6.png">
-                    <div class="project__description">
-                        <h3>Youtube site</h3>
-                        <span>Clone coding with HTML, CSS and JS</span>
-                    </div>
-                </a>
-                <a class="project" href="#" target="blank" data-type="Mobile">
-                    <img class = "project__img" src="imgs/projects/project7.png">
-                    <div class="project__description">
-                        <h3>Youtube site</h3>
-                        <span>Clone coding with HTML, CSS and JS</span>
-                    </div>
-                </a>
-                <a class="project" href="#" target="blank" data-type="Back-end">
-                    <img class = "project__img" src="imgs/projects/project4.png">
-                    <div class="project__description">
-                        <h3>Youtube site</h3>
-                        <span>Clone coding with HTML, CSS and JS</span>
-                    </div>
-                </a>
+               
             </div>
         </div>   
     </section>
-    <!-- testimonials -->
-    <section id="testimonials" class="section">
-        <div class="section__container">
-            <h1>Testimonials</h1>
-            <h3>see what they say about me</h3>
-            <div class="testimonials">
-                <div class="testimonial">
-                    <img src="imgs/people1.jpg" class="testimonials__avatar">
-                    <div class="testimonial_speechbubble">
-                        <p>It went through such rapid contortions that the little bear was forced to change his hold on it so many times he became confused in the darkness, and could not, for the life of him, tell whether he held the sheep right side up, or upside down.</p>
-                        <br>
-                        <p class="name"><a href="#">elle</a>/Samsung</p>
-                    </div>
-                    <p></p>
-                </div>
-
-                <div class="testimonial">
-                    <div class="testimonial_speechbubble">
-                        <p>It went through such rapid contortions that the little bear was forced to change his hold on it so many times he became confused in the darkness, and could not, for the life of him, tell whether he held the sheep right side up, or upside down.</p>
-                        <br>
-                        <p class="name"><a href="#">elle</a>/Samsung</p>
-                    </div>
-                    <img src="imgs/people1.jpg" class="testimonials__avatar">
-                </div>
-            </div>
-        </div>
-    </section>
+  
+ 
     <!-- contact -->
     <section id="contact" class="section">
-        <h1 class="contact__title">Let's talk</h1>
-        <h2 class="contat__email">dream.code@dreamcoding.com</h2>
+        <h1 class="contact__title">Let' talk</h1>
+        <span class="contat__email">tngus5280@gmail.com</span>
         <div class="contact__links">
-            <a href="#" target="blank">
+            <a href="https://github.com/suhyunH" target="blank">
                 <i class="fab fa-github"></i>
             </a>
-
-            <a href="#" target="blank">
+            <a href="https://linkedin.com/in/suhyunH9" target="blank">
                 <i class="fab fa-linkedin"></i>
             </a>
         </div>
-        <p class="contact__rights"> 2021 DreamCoding elle - All rights reserved </p>
+        <p class="contact__rights"> 2022 suhyunHan - All rights reserved </p>
     </section>
     <!-- Arrow up -->
     <button class="arrow-up">

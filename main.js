@@ -71,7 +71,7 @@ document.addEventListener('scroll', ()=>{
 // Projects
 const workBtnContainer = document.querySelector('.work__categories');
 const projectContainer = document.querySelector('.work__projects');
-const projects = document.querySelectorAll('.project');
+const projects = document.querySelectorAll('.project_filter');
 
 workBtnContainer.addEventListener('click', e=>{
     const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter;
