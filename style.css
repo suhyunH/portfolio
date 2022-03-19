@@ -243,14 +243,9 @@ p {
   border-radius: 50%;
   margin-bottom: 16px;
 }
-.major__icon i {
-  transition: all var(--animation-duration) ease;
+.iconify {
+  margin-top: 50px;
 }
-.major__icon:hover i {
-  color: var(--color-pink);
-  transform: rotate(-30deg) scale(1.1);
-}
-
 .major__title,
 .major__description {
   color: var(--color-dark-grey);
